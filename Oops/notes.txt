@@ -1,0 +1,23 @@
+Some special functions that c++ gives you when you create a classs 
+4 different functions that ae always present inside a class
+1 Copy constructor ---makes a copy of the given object
+                      exists by default
+                      you may have your own copy constructor if deep copy is needed
+                      
+2 constructor  ---that is responsible for creating a cobject
+                  gets called automatically and only once
+                  same name as class name
+3 Copy Assignment operator
+      ---make the copy of the given object
+      --copies when you do Assignment
+      --car d=c/copy constructor
+      --car d
+      d=c;//copy assignment operator
+      functionality copy constructor jaisi hi hoti hai bas tareeka likhne a change ho jata hai
+
+      
+4 Destructor
+
+
+**if we have two more constructor in the class with same name but different functins then it is termed as constructor overloading
+
